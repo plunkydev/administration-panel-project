@@ -29,7 +29,15 @@ body {
     grid-column: 1/2;
     grid-row: 1/3;
     border-radius: 4px 0 0 4px;
+    padding: 8px;
 }
+.aside-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
 .header-content {
     background-color: rgb(129, 147, 187);
     grid-column: 2/3;
