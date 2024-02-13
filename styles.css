@@ -37,6 +37,13 @@ body {
     gap: 15px;
     justify-content: flex-start;
 }
+.aside-item > img {
+    width: 16px;
+}
+
+.dashboard > img {
+    width: 24px;
+}
 
 .header-content {
     background-color: rgb(129, 147, 187);
