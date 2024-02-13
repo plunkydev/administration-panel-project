@@ -12,6 +12,7 @@ body {
     align-items: center;
     width: 99vw;
     height: 95vh;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-container {
