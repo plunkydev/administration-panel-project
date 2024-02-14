@@ -2,7 +2,7 @@
     --color-oscuro: #0f172a;
     --color-claro: #f1f5f9;
     --color-gris-claro: #cbd5e1;
-    --color-borde-left: #fde047;
+    --color-borde-left: #eeb933;
     --background-primary: #14b8a6;
 }
 
@@ -142,5 +142,41 @@ input:focus {
     grid-row: 2/3;
     border-radius: 0 0 4px 0;
     padding: 15px 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.item-content {
+    display: grid;
+    grid-template-rows: .4fr 4fr;
+}
+
+.tags-container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 110px;
+    grid-template-columns: repeat(auto-fill, minmax(18ch, 1fr));
+}
+.tags-container > .tags {
+    background-color: var(--color-claro);
+    padding: 5px 8px;
+    border-left: 5px solid var(--color-borde-left);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+}
+.tags-simbols {
+    display: flex;
+    justify-content: flex-end;
+}
+.tags-simbols > img {
+    width: 12px;
+    margin-left: 10px;
+}
+small {
+    font-size: 10px;
 }
 /* main area end */
