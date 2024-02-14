@@ -135,10 +135,12 @@ input:focus {
 
 /*header area end*/
 
-
+/* main area start */
 .main-content {
     background-color: var(--color-gris-claro);
     grid-column: 2/3;
     grid-row: 2/3;
     border-radius: 0 0 4px 0;
+    padding: 15px 10px;
 }
+/* main area end */
