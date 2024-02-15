@@ -31,7 +31,6 @@ h5 {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
     margin-top: 15px;
 }
 /*aside area start*/
@@ -157,7 +156,6 @@ input:focus {
     grid-template-columns: repeat(auto-fill, minmax(18ch, 1fr));
 }
 .tags-container > .tags {
-    color: var(--color-oscuro);
     background-color: var(--color-claro);
     padding: 5px 8px;
     border-left: 5px solid var(--color-borde-left);
@@ -171,10 +169,8 @@ input:focus {
 }
 .tags-items > p, h6 {
     line-height: .8;
-    margin-bottom: 8px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: wrap;
+    margin-bottom: 6px;
+    color: var(--color-oscuro);
 }
 .tags-simbols {
     display: flex;
