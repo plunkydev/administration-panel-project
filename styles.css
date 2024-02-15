@@ -102,6 +102,10 @@ input:focus {
     outline: solid 2px var(--color-gris-claro);
 }
 
+.header-item > div > h6 {
+    margin: 0;
+}
+
 .header-item > img[src$=".svg"] {
     width: 16px;
     filter: invert(50%);
@@ -143,6 +147,7 @@ input:focus {
     padding: 15px 10px;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    column-gap: 15px;
 }
 .item-content {
     display: grid;
@@ -183,4 +188,35 @@ input:focus {
 small {
     font-size: 10px;
 }
+
+/* tags aside start */
+
+.tags-aside-item {
+    background-color: var(--color-claro);
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 4px 7px 1px rgba(0,0,0,0.15);
+}
+.trending-item {
+    display: flex;
+}
+.trending-item > div {
+    display: block;
+}
+.announcements-item > p, .trending-item > div > p {
+    font-size: 8px;
+    line-height: 1.2;
+}
+.announcements-item > h6, .trending-item > div > h6 {
+    font-size: 10px;
+}
+.announcements-item > hr {
+    margin: 15px 0;
+}
+/* tags aside end */
 /* main area end */
